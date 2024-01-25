@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Patua One', serif;
+}
+
+body {
+    background-color: #EDEFEE;
+    margin-top: 20px;
+}
+
+nav {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    height: 60px;
+    width: 95vw;
+    border-radius: 25px;
+    background-color: #495E57;
+}
+
+nav li {
+    padding: 30px;
+    color: #edefeeef;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+img {
+    color: #495E57;
+    width: 35vw;
+}
+
+footer p {
+    display: flex;
+}
+
+#footer-img {
+    width: 5vw;
+    height: 15vh;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.footer-text-container {
+    border-top: 2px solid black;
+    width: 40vw;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.heading-logo {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+ 
+.promotional {
+    padding: 50px;
+    position: relative; 
+    display: flex;
+    border-radius: 25px;
+}
+
+.promo-content {
+    padding: 50px;
+    position: relative; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 95vw;
+}
+
+.promo-text {
+    line-height: 1.5;
+}
+    
+.promo-content::before {
+    content: "";
+    background-image: url("images/pasta2.png");
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    filter: brightness(60%);
+    border-radius: 25px;
+}
+
+.promo-text, .promo-head {
+    position: relative;
+    color: #ffffffee;  
+    text-align: center;
+}
+
+.articles {
+    display: flex;
+    justify-content: space-between;
+    width: 95vw;
+    padding: 0 50px;
+}
+
+.article-content {
+    background-color: #d0cdbe;
+    color: #0000009d;
+    margin: 10px;
+    padding: 40px;
+    border-radius: 20px;
+}
+
+.article-content p {
+    width: 20vw;
+    margin: 10px;
+}
+
+.article-content img {
+    width: 18vw;
+    height: 35vh;
+    padding: 10px;
+}
+
